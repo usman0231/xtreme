@@ -3,7 +3,7 @@
 import { useRef, useLayoutEffect } from "react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-
+import Loader from "@/components/loader"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import Image from "next/image"
@@ -240,6 +240,8 @@ export default function HomePage() {
   ))
 
   return (
+    <>
+    <Loader />
     <main ref={rootRef} className="min-h-screen">
       <Header />
 
@@ -528,5 +530,6 @@ export default function HomePage() {
 
       <Footer />
     </main>
+    </>
   )
 }
