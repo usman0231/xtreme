@@ -86,8 +86,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-gray-400 text-sm">
-            Copyright ©2025 All rights reserved | This template is made with{" "}
-            <Heart className="inline w-4 h-4 text-red-600 fill-current" /> by Colorlib
+            Copyright ©2025 All rights reserved | XTREME COUTURE
           </p>
         </div>
       </div>

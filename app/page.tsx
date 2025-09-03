@@ -323,16 +323,16 @@ export default function HomePage() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-12 grid-rows-6 gap-4 h-[800px] max-w-7xl mx-auto">
             <div className="col-span-4 row-span-3 relative overflow-hidden rounded-lg gallery-item">
-              <Image src="/images/gallery1.png" alt="Gallery Image 1" fill className="object-cover hover:scale-105 transition-transform duration-300" />
+              <Image src="/images/stage.jpg" alt="Gallery Image 1" fill className="object-cover hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="col-span-4 row-span-3 relative overflow-hidden rounded-lg gallery-item">
-              <Image src="/images/gallery2.png" alt="Gallery Image 2" fill className="object-cover hover:scale-105 transition-transform duration-300" />
+              <Image src="/images/gallery_mma.jpg" alt="Gallery Image 2" fill className="object-cover hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="col-span-4 row-span-3 relative overflow-hidden rounded-lg gallery-item">
               <Image src="/images/gallery3.png" alt="Gallery Image 3" fill className="object-cover hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="col-span-3 row-span-3 relative overflow-hidden rounded-lg gallery-item">
-              <Image src="/images/gallery4.png" alt="Gallery Image 4" fill className="object-cover hover:scale-105 transition-transform duration-300" />
+              <Image src="/images/taekando.jpg" alt="Gallery Image 4" fill className="object-cover hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="col-span-3 row-span-3 relative overflow-hidden rounded-lg gallery-item">
               <Image src="/images/gallery5.png" alt="Gallery Image 5" fill className="object-cover hover:scale-105 transition-transform duration-300" />
@@ -354,7 +354,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="border border-gray-600 bg-black p-8 text-center price-card">
               <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-8">
-                <Image src="/images/dumbbell-icon.png" alt="Dumbbell Icon" width={24} height={24} className="filter invert" />
+                <Image src="/images/dumbbell-icon.png" alt="Dumbbell Icon" width={24} height={24} className="" />
               </div>
               <h3 className="text-white text-2xl font-bold mb-4 tracking-wider">6 MONTH</h3>
               <div className="mb-8">
@@ -375,7 +375,7 @@ export default function HomePage() {
 
             <div className="border border-gray-600 bg-black p-8 text-center price-card">
               <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-8">
-                <Image src="/images/dumbbell-icon.png" alt="Dumbbell Icon" width={24} height={24} className="filter invert" />
+                <Image src="/images/dumbbell-icon.png" alt="Dumbbell Icon" width={24} height={24} className="" />
               </div>
               <h3 className="text-white text-2xl font-bold mb-4 tracking-wider">6 MONTH</h3>
               <div className="mb-8">
@@ -396,7 +396,7 @@ export default function HomePage() {
 
             <div className="border border-gray-600 bg-black p-8 text-center price-card">
               <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-8">
-                <Image src="/images/dumbbell-icon.png" alt="Dumbbell Icon" width={24} height={24} className="filter invert" />
+                <Image src="/images/dumbbell-icon.png" alt="Dumbbell Icon" width={24} height={24} className="" />
               </div>
               <h3 className="text-white text-2xl font-bold mb-4 tracking-wider">6 MONTH</h3>
               <div className="mb-8">
@@ -484,12 +484,12 @@ export default function HomePage() {
       </section>
 
       {/* CONTACT */}
-      <section ref={contactRef} className="py-16" style={{ backgroundColor: "#000000c7" }}>
+      <section ref={contactRef} className="py-16 " style={{ backgroundColor: "#831327" }}>
         <div className="container mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="flex items-start space-x-6 contact-item">
-              <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center flex-shrink-0">
-                <MapPin className="w-6 h-6 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center flex-shrink-0">
+                <MapPin className="w-6 h-6 text-[#d10909]" />
               </div>
               <div>
                 <h3 className="text-white text-xl font-bold mb-2 tracking-wider">Location</h3>
@@ -500,8 +500,8 @@ export default function HomePage() {
             </div>
 
             <div className="flex items-start space-x-6 contact-item">
-              <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center flex-shrink-0">
-                <Phone className="w-6 h-6 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center flex-shrink-0">
+                <Phone className="w-6 h-6 text-[#d10909]" />
               </div>
               <div>
                 <h3 className="text-white text-xl font-bold mb-2 tracking-wider">Phone</h3>
@@ -513,8 +513,8 @@ export default function HomePage() {
             </div>
 
             <div className="flex items-start space-x-6 contact-item">
-              <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center flex-shrink-0">
-                <Mail className="w-6 h-6 text-white" />
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center flex-shrink-0">
+                <Mail className="w-6 h-6 text-[#d10909]" />
               </div>
               <div>
                 <h3 className="text-white text-xl font-bold mb-2 tracking-wider">Email</h3>
